@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #0078d4;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header {
+    position: relative; /* Create a positioning context for the image */
+    background-color: rgba(6, 2, 24, 0.939); /* Background color for the header */
+    padding: 20px;
+  }
+  
+  header img {
+    max-width: 70px; /* Adjust the image size as needed */
+    position: absolute;
+    top: 15px; /* Adjust the top position to your preference */
+    left: 10px; /* Adjust the left position to your preference */
+  }
+  
+  header h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  header p {
+    font-style: italic;
+    margin: 0;
+  }
+  
+
+
+ /* About me section */
+ #about {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #about ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #about li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  #about img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  #about h2 {
+    font-size: 1.5em;
+  }
+  
+  #about p {
+    margin: 0;
+  }
+  
+  
+
+/* Style for the "experience" section */
+#experience {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  /* Style for the image inside the "experience" section */
+  #experience img {
+    max-width: 100px; 
+    margin-right: 20px;
+}
+  /* Style for the unordered list (ul) */
+  #experience ul {
+    list-style: none; /
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  /* Style for list items (li) within the unordered list */
+  #experience li {
+    margin: 0; 
+}
+  /* Style for the job title (h3) */
+  #experience h3 {
+    font-size: 1.2em; 
+    margin: 0; /
+  }
+  /* Style for the company name (p) */
+  #experience p:nth-of-type(1) {
+    font-weight: bold; 
+    margin: 0; 
+  }
+  
+  /* Style for the date range (p) */
+  #experience p:nth-of-type(2) {
+    font-style: italic; 
+    margin: 0; 
+}
+  /* Style for the additional role description (p) */
+  #experience p:nth-of-type(3) {
+    margin: 0; 
+  }
+  /* Style for the "skills" section */
+#skills {
+    text-align: center; /
+  }
+  
+  /* Style for the unordered list (ul) */
+  #skills ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+  
+  /* Style for list items (li) within the unordered list */
+  #skills li {
+    margin: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  /* Style for the images within list items */
+  #skills li img {
+    max-width: 100px; 
+  }
+  
+  /* Style for the skill names (spans) within list items */
+  #skills li span {
+    margin-top: 5px;
+  }
+
+  #contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contact li {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  #contact li strong {
+    color: #007BFF;
+    margin-right: 10px;
+  }
+  
+  /* Style for links (if you want to link the email and phone) */
+  #contact li a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  #contact li a:hover {
+    text-decoration: underline;
+  }
+  
